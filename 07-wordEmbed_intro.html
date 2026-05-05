@@ -465,25 +465,25 @@ Importantly, LSA is considered a <em>bag of words</em> method since the
 order of words in a document is not considered.</p></li>
 </ul><p>To get a high-level overview of the embedding methods covered thus
 far, study the table below:</p>
-<table class="table"><colgroup><col width="21%"><col width="11%"><col width="13%"><col width="16%"><col width="25%"><col width="11%"></colgroup><thead><tr class="header"><th align="center">Technique</th>
+<table class="table"><colgroup><col width="21%"><col width="11%"><col width="13%"><col width="16%"><col width="25%"><col width="11%"></colgroup><thead><tr><th align="center">Technique</th>
 <th align="center">Input</th>
 <th align="center">Embedding Structure</th>
 <th align="center">Output Vector Dimensions</th>
 <th align="center">Meaning Stored</th>
 <th align="center">Order Dependency</th>
-</tr></thead><tbody><tr class="odd"><td align="center">Word Counts</td>
+</tr></thead><tbody><tr><td align="center">Word Counts</td>
 <td align="center">Raw text corpus</td>
 <td align="center">Sparse vectors</td>
 <td align="center">[1, Vocabulary Size] <br>(per document)</td>
 <td align="center">Word presence in documents</td>
 <td align="center">No <br>(bag of words)</td>
-</tr><tr class="even"><td align="center">TF-IDF</td>
+</tr><tr><td align="center">TF-IDF</td>
 <td align="center">Word Counts</td>
 <td align="center">Sparse vectors</td>
 <td align="center">[1, Vocabulary Size] <br>(per document)</td>
 <td align="center">Importance of terms in documents</td>
 <td align="center">No <br>(bag of words)</td>
-</tr><tr class="odd"><td align="center">Latent Semantic Analysis (LSA)</td>
+</tr><tr><td align="center">Latent Semantic Analysis (LSA)</td>
 <td align="center">TF-IDF or similar</td>
 <td align="center">Dense vectors</td>
 <td align="center">[1, Number of Topics] <br>(per document)</td>
@@ -532,31 +532,31 @@ encountered in a corpus. These embeddings, which are represented as
 high-dimesional vectors, tend to look very similar for words that are
 used in similar contexts. Adding this method to our overview table, we
 get:</p>
-<table class="table"><colgroup><col width="21%"><col width="11%"><col width="13%"><col width="16%"><col width="25%"><col width="11%"></colgroup><thead><tr class="header"><th align="center">Technique</th>
+<table class="table"><colgroup><col width="21%"><col width="11%"><col width="13%"><col width="16%"><col width="25%"><col width="11%"></colgroup><thead><tr><th align="center">Technique</th>
 <th align="center">Input</th>
 <th align="center">Embedding Structure</th>
 <th align="center">Output Vector Dimensions</th>
 <th align="center">Meaning Stored</th>
 <th align="center">Order Dependency</th>
-</tr></thead><tbody><tr class="odd"><td align="center">Word Counts</td>
+</tr></thead><tbody><tr><td align="center">Word Counts</td>
 <td align="center">Raw text corpus</td>
 <td align="center">Sparse vectors</td>
 <td align="center">[1, Vocabulary Size] <br>(per document)</td>
 <td align="center">Word presence in documents</td>
 <td align="center">No <br>(bag of words)</td>
-</tr><tr class="even"><td align="center">TF-IDF</td>
+</tr><tr><td align="center">TF-IDF</td>
 <td align="center">Word Counts</td>
 <td align="center">Sparse vectors</td>
 <td align="center">[1, Vocabulary Size] <br>(per document)</td>
 <td align="center">Importance of terms in documents</td>
 <td align="center">No <br>(bag of words)</td>
-</tr><tr class="odd"><td align="center">Latent Semantic Analysis (LSA)</td>
+</tr><tr><td align="center">Latent Semantic Analysis (LSA)</td>
 <td align="center">TF-IDF or similar</td>
 <td align="center">Dense vectors</td>
 <td align="center">[1, Number of Topics] <br>(per document)</td>
 <td align="center">Semantic topics present in documents</td>
 <td align="center">No <br>(bag of words)</td>
-</tr><tr class="even"><td align="center">Word2Vec</td>
+</tr><tr><td align="center">Word2Vec</td>
 <td align="center">Raw text corpus</td>
 <td align="center">Dense vectors</td>
 <td align="center">[1, Embedding Dimension] <br>(per word)</td>
@@ -1172,7 +1172,7 @@ tasks</li>
   "identifier": "https://josenino95.github.io/python-text-analysis/07-wordEmbed_intro.html",
   "dateCreated": "2020-10-12",
   "dateModified": "2025-03-21",
-  "datePublished": "2026-04-28"
+  "datePublished": "2026-05-05"
 }
 
   </script><script>
